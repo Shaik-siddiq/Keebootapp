@@ -1,0 +1,94 @@
+
+div {
+    margin: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2ecc71;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+  }
+  
+  .search-button,
+  .reset-search-button {
+    margin-left: 8px;
+  }
+ 
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ecf0f1; 
+    color: #333;
+  }
+  
+  .edit-button {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: 1px solid #e74c3c;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button:hover {
+    background-color: #87CEEB; 
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b; 
+  }
+  
+  .search-handler{
+    margin-top: 0;
+  }
+  .button-container{
+    display: flex;
+  }
